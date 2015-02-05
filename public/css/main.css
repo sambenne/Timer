@@ -1,0 +1,173 @@
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+}
+
+.account-wall {
+	margin-top: 20px;
+	padding: 40px 0 20px 0;
+	background-color: #F7F7F7;
+	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-title {
+	color: #555;
+	font-size: 18px;
+	font-weight: 400;
+	display: block;
+}
+
+.profile-img {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 10px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.profile-name {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 0 0;
+	height: 1em;
+}
+
+.profile-email {
+	display: block;
+	padding: 0 8px;
+	color: #404040;
+	line-height: 2;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.need-help {
+	display: block;
+	margin-top: 10px;
+}
+
+.new-account {
+	display: block;
+	margin-top: 10px;
+}
+
+
+.timer-controls {
+	width: 100%;
+	-webkit-box-shadow: 0 1px 4px rgba(128,128,128,.4);
+	-moz-box-shadow: 0 1px 4px rgba(128,128,128,.4);
+	box-shadow: 0 1px 4px rgba(128,128,128,.4);
+	padding: 0;
+}
+
+.timer-controls > div {
+	display: inline-block;
+}
+
+.timer-controls .input {
+	width: 50%;
+}
+.timer-controls .input input,
+.timer-controls .projects select {
+	font-size: 18px;
+	padding: 15px 18px 16px;
+	box-shadow: none;
+	border: none;
+	width: 100%;
+}
+
+.timer-controls .projects {
+	width: 29%;
+	border-left: 1px solid #F4F4F4;
+}
+
+.timer-controls .timer {
+	width: 18%;
+	height: 56px;
+	float: right;
+}
+.timer-controls .timer button {
+	height: 100%;
+	width: 65%;
+	border-radius: 0;
+	font-size: 29px;
+	float: right;
+}
+
+.timer-clock {
+	font-size: 15px;
+	line-height: 55px;
+	text-align: center;
+}
