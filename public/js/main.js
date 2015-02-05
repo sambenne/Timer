@@ -122,3 +122,9 @@ $(document).ready(function() {
 		doTimer();
 	}
 });
+
+$(document).on('change', '#project', function() {
+	if( $(this).val() === '-1' ) {
+		location.href = 'projects';
+	}
+});

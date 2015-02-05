@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
+<div class="menu-bar">
+    <div class="menu-inner">
+        <div class="row">
+            <h2>Timer</h2>
+            <div class="menu">
+                <a href="/dashboard">Dashboard</a>
+                <a href="/projects">Projects</a>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container">
     @yield('content')
 </div>

@@ -21,11 +21,10 @@
                 </div>
                 <div class="projects">
                     <select name="project" id="project">
-                        @forelse($projects as $project)
+                        @foreach($projects as $project)
                             <option value="{{$project->id}}" {{ ( $running && $project->id === $running->project_id ? 'selected' : '' ) }}>{{$project->name}}</option>
-                        @empty
-                            <option value="-1">You have no projects</option>
-                        @endforelse
+                        @endforeach
+                        <option value="-1">Create Project</option>
                     </select>
 
                 </div>
@@ -47,8 +46,7 @@
                 <thead>
                 <tr>
                     <td>Name</td>
-                    <td>Start</td>
-                    <td>End</td>
+                    <td>Time</td>
                     <td>Actions</td>
                 </tr>
                 </thead>
@@ -56,16 +54,22 @@
                 @forelse($timers as $timer)
                     <tr>
                         <td>{{$timer->name}}<br/><small>{{$timer->project->name}}</small></td>
-                        <td>{{$timer->getStartTimer()}}</td>
-                        <td>{{$timer->getEndTimer()}}</td>
+                        <td>{{$timer->getTime()}}</td>
                         <td></td>
                     </tr>
                 @empty
                     <tr>
-                        <td colspan="4">You have not yet created any timers.</td>
+                        <td colspan="3">You have not yet created any timers.</td>
                     </tr>
                 @endforelse
                 </tbody>
+                <tfooter>
+                    <tr>
+                        <td>All Time</td>
+                        <td>{{Timer::allTimes()}}</td>
+                        <td></td>
+                    </tr>
+                </tfooter>
             </table>
         </div>
     </div>

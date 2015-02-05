@@ -171,3 +171,62 @@
 	line-height: 55px;
 	text-align: center;
 }
+
+.container {
+	margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+	.menu-inner {
+		width: 750px;
+	}
+}
+
+@media (min-width: 992px) {
+	.menu-inner {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.menu-inner {
+		width: 1170px;
+	}
+}
+
+.menu-inner {
+	display: block;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.menu-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: #555;
+	color: #FEFEFE;
+	z-index: 9999;
+}
+
+.menu-bar h2 {
+	display: inline-block;
+	float: left;
+	margin: 5px 0 0;
+}
+
+.menu-bar .menu {
+	float: right;
+	display: block;
+	height: 100%;
+	line-height: 37px;
+	font-size: 22px;
+}
+
+.menu-bar .menu a {
+	color: #FFF;
+}
